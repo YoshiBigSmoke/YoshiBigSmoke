@@ -11,8 +11,6 @@
    ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
    ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
-![YoshiBigSmoke's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=tokyonight&layout=compact)
-
 
 - **Softwares and Tools**:
 
@@ -34,3 +32,5 @@
 <p align = "center">
 	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
 </p>
+![YoshiBigSmoke's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=tokyonight&layout=compact)
+
