@@ -1,5 +1,4 @@
 
-![YoshiBigSmoke's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=tokyonight&layout=compact)
 
 <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Assalamu+O+Alaikum+Warahmatullah..&hearts;++;Self-taught+Front-End+Developer,;Computer+Science+Student,;CTF+Newbie,;Active+Learner/Researcher,;Love+to+learn+new+stuffs..<3"></a>
 - **Languages**:
@@ -12,6 +11,7 @@
    ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
    ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
+![YoshiBigSmoke's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=tokyonight&layout=compact)
 
 
 - **Softwares and Tools**:
