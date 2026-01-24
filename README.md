@@ -29,8 +29,8 @@
 
 <p align = "center">
 	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
-![YoshiBigSmoke's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=tokyonight&layout=compact)
-
 </p>
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=tokyonight&layout=compact" alt="Top Languages"/>
+</p>
 
