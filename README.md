@@ -1,5 +1,3 @@
-
-
 <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Assalamu+O+Alaikum+Warahmatullah..&hearts;++;Self-taught+Front-End+Developer,;Computer+Science+Student,;CTF+Newbie,;Active+Learner/Researcher,;Love+to+learn+new+stuffs..<3"></a>
 - **Languages**:
     
@@ -31,7 +29,7 @@
 
 <p align = "center">
 	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
-	![YoshiBigSmoke's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=tokyonight&layout=compact)
+		![YoshiBigSmoke's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=tokyonight&layout=compact)
 
 </p>
 
