@@ -1,0 +1,103 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%">                                                                                 
+    <defs>                                                                                                                                                    
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">                                                                                            
+        <stop offset="0%" stop-color="#0d1117"/>                                                                                                              
+        <stop offset="100%" stop-color="#0f1923"/>                                                                                                            
+      </linearGradient>                                                                                                                                       
+      <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">                                                                                        
+        <stop offset="0%" stop-color="#22d3ee"/>                                                                                                              
+        <stop offset="100%" stop-color="#a855f7"/>                                                                                                            
+      </linearGradient>                                                                                                                                       
+      <linearGradient id="lineH" x1="0%" y1="0%" x2="100%" y2="0%">                                                                                           
+        <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>                                                                                             
+        <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.8"/>                                                                                          
+        <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>                                                                                           
+      </linearGradient>                                                                                                                                       
+      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">                                                                                         
+        <feGaussianBlur stdDeviation="4" result="blur"/>                                                                                                      
+        <feMerge>                                                                                                                                             
+          <feMergeNode in="blur"/>                                                                                                                            
+          <feMergeNode in="SourceGraphic"/>                                                                                                                   
+        </feMerge>                                                                                                                                            
+      </filter>                                                                                                                                               
+    </defs>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Fondo -->                                                                                                                                            
+    <rect width="900" height="300" fill="url(#bg)"/>                                                                                                          
+                                                                                                                                                              
+    <!-- Bracket esquina TL -->                                                                                                                               
+    <path d="M 40 40 L 40 85 M 40 40 L 85 40"                                                                                                                 
+          stroke="#22d3ee" stroke-width="2" fill="none"                                                                                                       
+          opacity="0.8" filter="url(#glow)"/>                                                                                                                 
+    <!-- Bracket esquina TR -->                                                                                                                               
+    <path d="M 860 40 L 860 85 M 860 40 L 815 40"                                                                                                             
+          stroke="#22d3ee" stroke-width="2" fill="none"                                                                                                       
+          opacity="0.8" filter="url(#glow)"/>                                                                                                                 
+    <!-- Bracket esquina BL -->                                                                                                                               
+    <path d="M 40 260 L 40 215 M 40 260 L 85 260"                                                                                                             
+          stroke="#22d3ee" stroke-width="2" fill="none"                                                                                                       
+          opacity="0.8" filter="url(#glow)"/>                                                                                                                 
+    <!-- Bracket esquina BR -->                                                                                                                               
+    <path d="M 860 260 L 860 215 M 860 260 L 815 260"                                                                                                         
+          stroke="#22d3ee" stroke-width="2" fill="none"                                                                                                       
+          opacity="0.8" filter="url(#glow)"/>                                                                                                                 
+                                                                                                                                                              
+    <!-- Lineas horizontales con fade -->                                                                                                                     
+    <line x1="110" y1="68" x2="790" y2="68"                                                                                                                   
+          stroke="url(#lineH)" stroke-width="1" opacity="0.6"/>                                                                                               
+    <line x1="110" y1="232" x2="790" y2="232"                                                                                                                 
+          stroke="url(#lineH)" stroke-width="1" opacity="0.6"/>                                                                                               
+                                                                                                                                                              
+    <!-- Diamantes en esquinas del frame -->                                                                                                                  
+    <polygon points="110,60 116,68 110,76 104,68"                                                                                                             
+             fill="#22d3ee" opacity="0.9" filter="url(#glow)"/>                                                                                               
+    <polygon points="790,60 796,68 790,76 784,68"                                                                                                             
+             fill="#a855f7" opacity="0.9" filter="url(#glow)"/>                                                                                               
+    <polygon points="110,224 116,232 110,240 104,232"                                                                                                         
+             fill="#a855f7" opacity="0.9" filter="url(#glow)"/>                                                                                               
+    <polygon points="790,224 796,232 790,240 784,232"                                                                                                         
+             fill="#22d3ee" opacity="0.9" filter="url(#glow)"/>                                                                                               
+                                                                                                                                                              
+    <!-- Nombre: capa glow -->                                                                                                                                
+    <text x="450" y="158"                                                                                                                                     
+          font-family="'Courier New', Courier, monospace"                                                                                                     
+          font-size="56" font-weight="bold"                                                                                                                   
+          text-anchor="middle"                                                                                                                                
+          fill="#22d3ee" opacity="0.25"                                                                                                                       
+          filter="url(#glow)">YoshiBigSmoke</text>                                                                                                            
+                                                                                                                                                              
+    <!-- Nombre: capa principal con gradiente -->                                                                                                             
+    <text x="450" y="158"                                                                                                                                     
+          font-family="'Courier New', Courier, monospace"                                                                                                     
+          font-size="56" font-weight="bold"                                                                                                                   
+          text-anchor="middle"                                                                                                                                
+          fill="url(#nameGrad)">YoshiBigSmoke</text>                                                                                                          
+                                                                                                                                                              
+    <!-- Subtitulo -->                                                                                                                                        
+    <text x="450" y="196"                                                                                                                                     
+          font-family="'Courier New', Courier, monospace"                                                                                                     
+          font-size="13" text-anchor="middle"                                                                                                                 
+          fill="#475569" letter-spacing="6">                                                                                                                  
+      CYBERSECURITY · DEVELOPER · ARCH LINUX                                                                                                                  
+    </text>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Linea scan animada -->                                                                                                                               
+    <rect x="0" y="0" width="900" height="2"                                                                                                                  
+          fill="url(#lineH)" opacity="0">                                                                                                                     
+      <animate attributeName="y" from="-2" to="302" dur="4s" repeatCount="indefinite"/>                                                                       
+      <animate attributeName="opacity"                                                                                                                        
+               values="0;0.5;0.5;0" keyTimes="0;0.05;0.95;1"                                                                                                  
+               dur="4s" repeatCount="indefinite"/>                                                                                                            
+    </rect>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Dots pulsando -->                                                                                                                                    
+    <circle cx="450" cy="232" r="2.5" fill="#22d3ee" filter="url(#glow)">                                                                                     
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>                                                                 
+    </circle>                                                                                                                                                 
+    <circle cx="420" cy="232" r="1.5" fill="#a855f7" filter="url(#glow)">                                                                                     
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.3s" repeatCount="indefinite"/>                                                    
+    </circle>                                                                                                                                                 
+    <circle cx="480" cy="232" r="1.5" fill="#a855f7" filter="url(#glow)">                                                                                     
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.6s" repeatCount="indefinite"/>                                                    
+    </circle>                                                                                                                                                 
+  </svg>                        
