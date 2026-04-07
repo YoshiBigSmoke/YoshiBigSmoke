@@ -1,7 +1,4 @@
-                                                                                                                                                             
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3d0070,50:0070a8,100:00a878&height=220&section=header&text=YoshiBigSmoke&fo
-  ntSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=⚡%20Cybersecurity%20·%20Developer%20·%20Arch%20Linux%20⚡&descAlignY=58&descAlign=50&descSiz
-  e=18&fontAlign=50"/>                                                                                                                                        
+  <img src="./banner.svg" width="100%"/>                                                                                                                      
                                                                                                                                                               
   <div align="center">                                                                                                                                        
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width
@@ -20,31 +17,31 @@
   <tr>                                                                                                                                                        
   <td width="50%" valign="top">                                                                                                                               
                                                                                                                                                               
-  <h3>⚡ About Me</h3>                                                                                                                                    
-
-  <pre>
+  <h3>⚡ About Me</h3>                                                                                                                                        
+                                                                                                                                                              
+  <pre>                                                                                                                                                       
   ┌──[YoshiBigSmoke@arch]─[~]                                                                                                                                 
   └─$ cat about.txt                                                                                                                                           
                                                                                                                                                               
     Role    → Cybersecurity & Dev                                                                                                                             
     OS      → Arch Linux btw                                                                                                                                  
-    Editor  → Neovim                                                                                                                                      
+    Editor  → Neovim                                                                                                                                          
     Project → netmappel (WIP)                                                                                                                                 
     Focus   → Security & Systems                                                                                                                              
                                                                                                                                                               
   └─$ _                                                                                                                                                       
   </pre>                                                                                                                                                      
-                                                                                                                                                          
-  </td>
-  <td width="50%" valign="top" align="center">
+                                                                                                                                                              
+  </td>                                                                                                                                                       
+  <td width="50%" valign="top" align="center">                                                                                                            
                                                                                                                                                               
   <img                                                                                                                                                        
   src="https://github-readme-stats.vercel.app/api?username=YoshiBigSmoke&theme=radical&show_icons=true&hide_border=true&count_private=true&rank_icon=github"  
   width="100%"/>                                                                                                                                              
                                                                                                                                                               
   </td>                                                                                                                                                   
-  </tr>                                                                                                                                                       
-  </table>                                                                                                                                                    
+  </tr>
+  </table>
                                                                                                                                                               
   <div align="center">                                                                                                                                        
     <img src="https://streak-stats.demolab.com?user=YoshiBigSmoke&theme=radical&hide_border=true" width="70%"/>                                               
@@ -58,12 +55,12 @@
                                                                                                                                                               
   <br/>                                                                                                                                                       
                                                                                                                                                               
-  ---                                                                                                                                                     
-
-  <h2 align="center">⚡ Tech Stack</h2>
+  ---                                                                                                                                                         
                                                                                                                                                               
-  <h4 align="center">Languages</h4>                                                                                                                           
-  <div align="center">                                                                                                                                        
+  <h2 align="center">⚡ Tech Stack</h2>                                                                                                                       
+                                                                                                                                                              
+  <h4 align="center">Languages</h4>                                                                                                                       
+  <div align="center">
     <img src="https://skillicons.dev/icons?i=python,rust,js,ts,java,linux&theme=dark&perline=6"/>                                                             
   </div>                                                                                                                                                      
                                                                                                                                                               
@@ -79,8 +76,8 @@
                                                                                                                                                               
   <br/>                                                                                                                                                       
                                                                                                                                                               
-  ---                                                                                                                                                     
-
+  ---                                                                                                                                                         
+                                                                                                                                                          
   <h2 align="center">📊 Stats</h2>
 
   <div align="center">
@@ -99,8 +96,8 @@
   ---
 
   <h2 align="center">🔨 Projects</h2>
-
-  <div align="center">
+                                                                                                                                                              
+  <div align="center">                                                                                                                                        
                                                                                                                                                               
   | Project | Description | Status |                                                                                                                          
   |:-------:|:-----------|:------:|                                                                                                                           
@@ -111,9 +108,4 @@
   <br/>                                                                                                                                                       
                                                                                                                                                               
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00a878,50:0070a8,100:3d0070&height=120&section=footer&animation=fadeIn"/>  
-                                                                                                                                                           
-                                                                                                                                                              
-  <br/>                                                                                                                                                       
-                                                                                                                                                              
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:003d20,100:0d1117&height=120&section=footer&animation=fadeIn"/>            
-                                                                                                              
+                    
