@@ -1,0 +1,145 @@
+                                                                                                                                                              
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="100%">                                                                                 
+    <defs>                                                                                                                                                    
+      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">                                                                                            
+        <stop offset="0%" stop-color="#0d1117"/>                                                                                                              
+        <stop offset="100%" stop-color="#0f1923"/>                                                                                                            
+      </linearGradient>                                                                                                                                       
+      <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">                                                                                        
+        <stop offset="0%" stop-color="#22d3ee"/>                                                                                                              
+        <stop offset="100%" stop-color="#a855f7"/>                                                                                                            
+      </linearGradient>                                                                                                                                       
+      <linearGradient id="lineH" x1="0%" y1="0%" x2="100%" y2="0%">                                                                                           
+        <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>                                                                                             
+        <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.6"/>                                                                                          
+        <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>                                                                                           
+      </linearGradient>                                                                                                                                       
+      <filter id="glow">                                                                                                                                      
+        <feGaussianBlur stdDeviation="3" result="blur"/>                                                                                                      
+        <feMerge>                                                                                                                                             
+          <feMergeNode in="blur"/>                                                                                                                            
+          <feMergeNode in="SourceGraphic"/>                                                                                                                   
+        </feMerge>                                                                                                                                            
+      </filter>                                                                                                                                               
+    </defs>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Fondo -->                                                                                                                                        
+    <rect width="900" height="380" fill="url(#bg)"/>                                                                                                          
+                                                                                                                                                              
+    <!-- Barra superior tipo terminal -->                                                                                                                     
+    <rect x="0" y="0" width="900" height="48" fill="#0a0f16"/>                                                                                                
+    <line x1="0" y1="48" x2="900" y2="48" stroke="url(#lineH)" stroke-width="1"/>                                                                             
+    <text x="40" y="30" font-family="'Courier New', monospace" font-size="15" fill="#22d3ee" filter="url(#glow)">&lt; about.me /&gt;</text>                   
+    <circle cx="836" cy="24" r="6" fill="#ff5f57"/>                                                                                                           
+    <circle cx="856" cy="24" r="6" fill="#ffbd2e"/>                                                                                                           
+    <circle cx="876" cy="24" r="6" fill="#28c840"/>                                                                                                           
+                                                                                                                                                              
+    <!-- Brackets esquinas -->                                                                                                                                
+    <path d="M 30 68 L 30 108 M 30 68 L 70 68" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.7" filter="url(#glow)"/>                              
+    <path d="M 870 68 L 870 108 M 870 68 L 830 68" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.7" filter="url(#glow)"/>                          
+    <path d="M 30 350 L 30 310 M 30 350 L 70 350" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.7" filter="url(#glow)"/>                           
+    <path d="M 870 350 L 870 310 M 870 350 L 830 350" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.7" filter="url(#glow)"/>                       
+                                                                                                                                                              
+    <!-- Nombre -->                                                                                                                                           
+    <text x="60" y="108" font-family="'Courier New', monospace" font-size="26" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)">Fernando Yeoshua  
+  Sanchez</text>                                                                                                                                              
+    <line x1="60" y1="120" x2="430" y2="120" stroke="#22d3ee" stroke-width="1" opacity="0.4"/>                                                                
+                                                                                                                                                              
+    <!-- Descripcion -->                                                                                                                                      
+    <text x="60" y="148" font-family="'Courier New', monospace" font-size="13" fill="#94a3b8" opacity="0">                                                    
+      Fell in love with code at 15. What started as curiosity                                                                                                 
+      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.6s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <text x="60" y="167" font-family="'Courier New', monospace" font-size="13" fill="#94a3b8" opacity="0">                                                    
+      became a lifestyle — and it never stopped.                                                                                                              
+      <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.6s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Item 1 -->                                                                                                                                           
+    <text x="60" y="210" font-family="'Courier New', monospace" font-size="13" fill="#22d3ee" filter="url(#glow)" opacity="0">◈                               
+      <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <text x="80" y="210" font-family="'Courier New', monospace" font-size="13" fill="#cbd5e1" opacity="0">Running home labs to break things and understand    
+  them                                                                                                                                                        
+      <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <rect x="700" y="197" width="68" height="20" rx="4" fill="#0d2010" opacity="0">                                                                           
+      <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.4s" fill="freeze"/>                                                                
+    </rect>                                                                                                                                                   
+    <circle cx="713" cy="207" r="3" fill="#00ff88" opacity="0">                                                                                               
+      <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.4s" fill="freeze"/>                                                                
+      <animate attributeName="opacity" values="1;0.2;1" dur="2s" begin="1.6s" repeatCount="indefinite"/>                                                      
+    </circle>                                                                                                                                                 
+    <text x="720" y="211" font-family="'Courier New', monospace" font-size="10" fill="#00ff88" opacity="0">ACTIVE                                             
+      <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Item 2 -->                                                                                                                                           
+    <text x="60" y="240" font-family="'Courier New', monospace" font-size="13" fill="#22d3ee" filter="url(#glow)" opacity="0">◈                               
+      <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <text x="80" y="240" font-family="'Courier New', monospace" font-size="13" fill="#cbd5e1" opacity="0">Documenting everything in my Learning Note on GitHub
+      <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <rect x="700" y="227" width="68" height="20" rx="4" fill="#150d2a" opacity="0">                                                                           
+      <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.4s" fill="freeze"/>                                                                
+    </rect>                                                                                                                                                   
+    <circle cx="713" cy="237" r="3" fill="#a855f7" opacity="0">                                                                                               
+      <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.4s" fill="freeze"/>                                                                
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.3s" begin="1.9s" repeatCount="indefinite"/>                                                    
+    </circle>                                                                                                                                                 
+    <text x="720" y="241" font-family="'Courier New', monospace" font-size="10" fill="#a855f7" opacity="0">PUBLIC                                             
+      <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Item 3 -->                                                                                                                                           
+    <text x="60" y="270" font-family="'Courier New', monospace" font-size="13" fill="#22d3ee" filter="url(#glow)" opacity="0">◈                               
+      <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <text x="80" y="270" font-family="'Courier New', monospace" font-size="13" fill="#cbd5e1" opacity="0">Enthusiastic about picking up new technologies fast 
+      <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <rect x="700" y="257" width="68" height="20" rx="4" fill="#0d1a2a" opacity="0">                                                                           
+      <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.4s" fill="freeze"/>                                                                
+    </rect>                                                                                                                                                   
+    <circle cx="713" cy="267" r="3" fill="#22d3ee" opacity="0">                                                                                               
+      <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.4s" fill="freeze"/>                                                                
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="2.2s" repeatCount="indefinite"/>                                                    
+    </circle>                                                                                                                                                 
+    <text x="720" y="271" font-family="'Courier New', monospace" font-size="10" fill="#22d3ee" opacity="0">ALWAYS                                             
+      <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Item 4 -->                                                                                                                                           
+    <text x="60" y="300" font-family="'Courier New', monospace" font-size="13" fill="#22d3ee" filter="url(#glow)" opacity="0">◈                               
+      <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <text x="80" y="300" font-family="'Courier New', monospace" font-size="13" fill="#cbd5e1" opacity="0">Currently deep into cybersecurity, systems &amp;    
+  networks                                                                                                                                                    
+      <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+    <rect x="700" y="287" width="68" height="20" rx="4" fill="#2a0d0d" opacity="0">                                                                           
+      <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.4s" fill="freeze"/>                                                                
+    </rect>                                                                                                                                                   
+    <circle cx="713" cy="297" r="3" fill="#f87171" opacity="0">                                                                                               
+      <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.4s" fill="freeze"/>                                                                
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" begin="2.5s" repeatCount="indefinite"/>                                                    
+    </circle>                                                                                                                                                 
+    <text x="720" y="301" font-family="'Courier New', monospace" font-size="10" fill="#f87171" opacity="0">FOCUS                                              
+      <animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.4s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Separador y quote -->                                                                                                                                
+    <line x1="60" y1="322" x2="840" y2="322" stroke="url(#lineH)" stroke-width="1" opacity="0.4"/>                                                            
+    <text x="450" y="345" font-family="'Courier New', monospace" font-size="12" fill="#475569" text-anchor="middle" font-style="italic" opacity="0">"The best 
+  way to learn is to break things — then build them better."                                                                                                  
+      <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.8s" fill="freeze"/>                                                                
+    </text>                                                                                                                                                   
+                                                                                                                                                              
+    <!-- Scan line -->                                                                                                                                        
+    <rect x="0" y="0" width="900" height="2" fill="url(#lineH)" opacity="0">                                                                                  
+      <animate attributeName="y" from="-2" to="382" dur="5s" repeatCount="indefinite"/>                                                                       
+      <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.05;0.95;1" dur="5s" repeatCount="indefinite"/>                                      
+    </rect>                                                                                                                                                   
+  </svg>                                                                                                                                                      
+            
