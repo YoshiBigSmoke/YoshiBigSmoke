@@ -1,3 +1,4 @@
+                                                                                                                                                              
   <img src="./banner.svg" width="100%"/>                                                                                                                      
                                                                                                                                                               
   <div align="center">                                                                                                                                        
@@ -13,38 +14,13 @@
                                                                                                                                                               
   <br/>                                                                                                                                                       
                                                                                                                                                               
-  <table width="100%">                                                                                                                                        
-  <tr>                                                                                                                                                        
-  <td width="50%" valign="top">                                                                                                                               
-                                                                                                                                                              
-  <h3>⚡ About Me</h3>                                                                                                                                        
-                                                                                                                                                              
-  <pre>                                                                                                                                                       
-  ┌──[YoshiBigSmoke@arch]─[~]                                                                                                                                 
-  └─$ cat about.txt                                                                                                                                           
-                                                                                                                                                              
-    Role    → Cybersecurity & Dev                                                                                                                             
-    OS      → Arch Linux btw                                                                                                                                  
-    Editor  → Neovim                                                                                                                                          
-    Project → netmappel (WIP)                                                                                                                                 
-    Focus   → Security & Systems                                                                                                                              
-                                                                                                                                                              
-  └─$ _                                                                                                                                                       
-  </pre>                                                                                                                                                      
-                                                                                                                                                              
-  </td>                                                                                                                                                       
-  <td width="50%" valign="top" align="center">                                                                                                            
-                                                                                                                                                              
-  <img                                                                                                                                                        
+  <img src="./about.svg" width="100%"/>                                                                                                                   
+
+  <div align="center">
+    <img                                                                                                                                                      
   src="https://github-readme-stats.vercel.app/api?username=YoshiBigSmoke&theme=radical&show_icons=true&hide_border=true&count_private=true&rank_icon=github"  
-  width="100%"/>                                                                                                                                              
-                                                                                                                                                              
-  </td>                                                                                                                                                   
-  </tr>
-  </table>
-                                                                                                                                                              
-  <div align="center">                                                                                                                                        
-    <img src="https://streak-stats.demolab.com?user=YoshiBigSmoke&theme=radical&hide_border=true" width="70%"/>                                               
+  width="48%"/>                                                                                                                                               
+    <img src="https://streak-stats.demolab.com?user=YoshiBigSmoke&theme=radical&hide_border=true" width="48%"/>                                               
   </div>                                                                                                                                                      
                                                                                                                                                               
   <br/>                                                                                                                                                       
@@ -55,12 +31,12 @@
                                                                                                                                                               
   <br/>                                                                                                                                                       
                                                                                                                                                               
-  ---                                                                                                                                                         
-                                                                                                                                                              
-  <h2 align="center">⚡ Tech Stack</h2>                                                                                                                       
-                                                                                                                                                              
-  <h4 align="center">Languages</h4>                                                                                                                       
-  <div align="center">
+  ---                                                                                                                                                     
+
+  <h2 align="center">⚡ Tech Stack</h2>
+
+  <h4 align="center">Languages</h4>
+  <div align="center">                                                                                                                                        
     <img src="https://skillicons.dev/icons?i=python,rust,js,ts,java,linux&theme=dark&perline=6"/>                                                             
   </div>                                                                                                                                                      
                                                                                                                                                               
@@ -76,11 +52,11 @@
                                                                                                                                                               
   <br/>                                                                                                                                                       
                                                                                                                                                               
-  ---                                                                                                                                                         
-                                                                                                                                                          
-  <h2 align="center">📊 Stats</h2>
+  ---                                                                                                                                                     
 
-  <div align="center">
+  <h2 align="center">📊 Stats</h2>
+                                                                                                                                                              
+  <div align="center">                                                                                                                                        
                                                                                                                                                               
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YoshiBigSmoke&theme=radical&layout=compact&hide_border=true" width="42%"/>         
                                                                                                                                                               
@@ -108,4 +84,4 @@
   <br/>                                                                                                                                                       
                                                                                                                                                               
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00a878,50:0070a8,100:3d0070&height=120&section=footer&animation=fadeIn"/>  
-                    
+   
