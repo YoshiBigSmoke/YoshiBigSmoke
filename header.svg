@@ -1,107 +1,179 @@
-<svg width="100%" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#06060f"/>
-      <stop offset="40%"  stop-color="#0d0530"/>
-      <stop offset="100%" stop-color="#070714"/>
+      <stop offset="0%"   stop-color="#03001C"/>
+      <stop offset="35%"  stop-color="#0d0530"/>
+      <stop offset="70%"  stop-color="#1a0550"/>
+      <stop offset="100%" stop-color="#050520"/>
     </linearGradient>
-    <linearGradient id="lineL" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#00d4ff" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0.6"/>
+    <linearGradient id="holo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#4CC9F0" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#7209B7" stop-opacity="0.9"/>
+      <stop offset="40%"  stop-color="#F72585" stop-opacity="1"/>
+      <stop offset="60%"  stop-color="#4361EE" stop-opacity="0.9"/>
+      <stop offset="80%"  stop-color="#4CC9F0" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#4CC9F0" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="lineR" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#00d4ff" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    <linearGradient id="grid-fade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#4CC9F0" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#4CC9F0" stop-opacity="0.18"/>
     </linearGradient>
     <style>
-      @keyframes glow {
-        0%,100% { opacity:1; }
-        50%      { opacity:0.78; }
+      @keyframes glitch-main {
+        0%,82%,95%,100% { transform:translate(0,0); opacity:1; }
+        83% { transform:translate(-4px, 1px); opacity:0.88; }
+        84% { transform:translate( 4px,-1px); opacity:0.82; }
+        85% { transform:translate(-2px, 0px); opacity:0.95; }
+        86%,94% { transform:translate(0,0); opacity:1; }
       }
-      @keyframes sub-glow {
+      @keyframes ghost-r {
+        0%,82%,88%,100% { opacity:0; transform:translate(0,0); }
+        83% { opacity:0.7; transform:translate( 5px, 0); }
+        84% { opacity:0.4; transform:translate(-2px, 1px); }
+        85% { opacity:0.6; transform:translate( 4px, 0); }
+        87% { opacity:0; }
+      }
+      @keyframes ghost-c {
+        0%,82%,88%,100% { opacity:0; transform:translate(0,0); }
+        83% { opacity:0.6; transform:translate(-5px, 0); }
+        84% { opacity:0.35; transform:translate( 2px,-1px); }
+        85% { opacity:0.5; transform:translate(-4px, 0); }
+        87% { opacity:0; }
+      }
+      @keyframes sub-pulse {
         0%,100% { opacity:0.92; }
-        50%      { opacity:0.58; }
+        50%      { opacity:0.55; }
       }
-      @keyframes tag-fade {
-        0%,100% { opacity:0.65; }
-        50%      { opacity:0.38; }
+      @keyframes sp-spin {
+        0%   { opacity:0.15; transform:scale(0.7) rotate(0deg); }
+        50%  { opacity:1;    transform:scale(1.3) rotate(45deg); }
+        100% { opacity:0.15; transform:scale(0.7) rotate(90deg); }
       }
-      @keyframes corner-blink {
-        0%,94%,96%,100% { opacity:1; }
-        95%              { opacity:0.3; }
+      @keyframes corner-flicker {
+        0%,90%,92%,100% { opacity:1; }
+        91%              { opacity:0.2; }
       }
-      .t-name { animation: glow     2.8s ease-in-out infinite; }
-      .t-sub  { animation: sub-glow 3.4s ease-in-out infinite; }
-      .t-tag  { animation: tag-fade 4.0s ease-in-out infinite; }
-      .corner { animation: corner-blink 5s linear infinite; }
+      .t-main { animation: glitch-main  7s steps(1) infinite; }
+      .t-r    { animation: ghost-r      7s steps(1) infinite; }
+      .t-c    { animation: ghost-c      7s steps(1) infinite; }
+      .t-sub  { animation: sub-pulse    3.5s ease-in-out infinite; }
+      .sp-a   { animation: sp-spin      2.2s ease-in-out infinite; }
+      .sp-b   { animation: sp-spin      2.8s ease-in-out 0.7s infinite; }
+      .sp-c   { animation: sp-spin      1.9s ease-in-out 1.3s infinite; }
+      .sp-d   { animation: sp-spin      3.1s ease-in-out 0.3s infinite; }
+      .corner { animation: corner-flicker 6s linear infinite; }
     </style>
   </defs>
 
-  <!-- background -->
-  <rect width="900" height="180" fill="url(#bg)"/>
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bg)"/>
 
-  <!-- subtle grid -->
-  <g opacity="0.055" stroke="#3030a0" stroke-width="0.7">
-    <line x1="0"   y1="45"  x2="900" y2="45"/>
-    <line x1="0"   y1="90"  x2="900" y2="90"/>
-    <line x1="0"   y1="135" x2="900" y2="135"/>
-    <line x1="180" y1="0"   x2="180" y2="180"/>
-    <line x1="360" y1="0"   x2="360" y2="180"/>
-    <line x1="540" y1="0"   x2="540" y2="180"/>
-    <line x1="720" y1="0"   x2="720" y2="180"/>
+  <!-- Perspective wireframe grid (bottom) — inspired by holo city sticker -->
+  <g fill="url(#grid-fade)">
+    <rect x="0" y="200" width="900" height="100"/>
+  </g>
+  <g opacity="1" stroke="url(#grid-fade)" stroke-width="0.9" fill="none">
+    <!-- horizontal bands -->
+    <line x1="0" y1="225" x2="900" y2="225"/>
+    <line x1="0" y1="245" x2="900" y2="245"/>
+    <line x1="0" y1="265" x2="900" y2="265"/>
+    <line x1="0" y1="285" x2="900" y2="285"/>
+    <!-- perspective lines from vanishing point 450,198 -->
+    <line x1="450" y1="198" x2="0"   y2="300"/>
+    <line x1="450" y1="198" x2="82"  y2="300"/>
+    <line x1="450" y1="198" x2="164" y2="300"/>
+    <line x1="450" y1="198" x2="246" y2="300"/>
+    <line x1="450" y1="198" x2="328" y2="300"/>
+    <line x1="450" y1="198" x2="450" y2="300"/>
+    <line x1="450" y1="198" x2="572" y2="300"/>
+    <line x1="450" y1="198" x2="654" y2="300"/>
+    <line x1="450" y1="198" x2="736" y2="300"/>
+    <line x1="450" y1="198" x2="818" y2="300"/>
+    <line x1="450" y1="198" x2="900" y2="300"/>
   </g>
 
-  <!-- corner brackets — top cyan -->
-  <g class="corner" fill="none" stroke="#00d4ff" stroke-width="2.5">
-    <polyline points="0,22 0,2 22,2"/>
-    <polyline points="878,2 898,2 898,22"/>
-  </g>
-  <!-- corner brackets — bottom red -->
-  <g class="corner" fill="none" stroke="#ff3366" stroke-width="2.5">
-    <polyline points="0,158 0,178 22,178"/>
-    <polyline points="878,178 898,178 898,158"/>
+  <!-- Holographic accent line (holo city sticker vibe) -->
+  <rect x="0" y="198" width="900" height="2.5" fill="url(#holo)"/>
+
+  <!-- Subtle top grid -->
+  <g opacity="0.045" stroke="#7209B7" stroke-width="0.7">
+    <line x1="0"   y1="75"  x2="900" y2="75"/>
+    <line x1="0"   y1="150" x2="900" y2="150"/>
+    <line x1="225" y1="0"   x2="225" y2="200"/>
+    <line x1="450" y1="0"   x2="450" y2="200"/>
+    <line x1="675" y1="0"   x2="675" y2="200"/>
   </g>
 
-  <!-- flanking lines around title -->
-  <rect x="58" y="87" width="245" height="1" fill="url(#lineL)" opacity="0.5"/>
-  <rect x="597" y="87" width="245" height="1" fill="url(#lineR)" opacity="0.5"/>
+  <!-- Corner brackets -->
+  <g class="corner" fill="none" stroke="#4CC9F0" stroke-width="2.8">
+    <polyline points="0,28 0,5 28,5"/>
+    <polyline points="872,5 895,5 895,28"/>
+  </g>
+  <g class="corner" fill="none" stroke="#F72585" stroke-width="2.8">
+    <polyline points="0,272 0,295 28,295"/>
+    <polyline points="872,295 895,295 895,272"/>
+  </g>
 
-  <!-- prompt glyph -->
-  <text x="62" y="82"
+  <!-- Sparkle diamonds — "forever online" / sticker vibe -->
+  <g class="sp-a" transform="translate(78,62)">
+    <polygon points="0,-9 5,0 0,9 -5,0"  fill="#4CC9F0"/>
+    <polygon points="0,-5 2.5,0 0,5 -2.5,0" fill="#fff" opacity="0.7"/>
+  </g>
+  <g class="sp-b" transform="translate(822,58)">
+    <polygon points="0,-9 5,0 0,9 -5,0"  fill="#F72585"/>
+    <polygon points="0,-5 2.5,0 0,5 -2.5,0" fill="#fff" opacity="0.7"/>
+  </g>
+  <g class="sp-c" transform="translate(145,158)">
+    <polygon points="0,-6 3,0 0,6 -3,0" fill="#7209B7"/>
+  </g>
+  <g class="sp-d" transform="translate(755,162)">
+    <polygon points="0,-6 3,0 0,6 -3,0" fill="#4361EE"/>
+  </g>
+  <g class="sp-a" transform="translate(42,138)">
+    <polygon points="0,-4 2,0 0,4 -2,0" fill="#4CC9F0" opacity="0.7"/>
+  </g>
+  <g class="sp-c" transform="translate(858,135)">
+    <polygon points="0,-4 2,0 0,4 -2,0" fill="#F72585" opacity="0.7"/>
+  </g>
+  <g class="sp-b" transform="translate(450,38)">
+    <polygon points="0,-5 2.5,0 0,5 -2.5,0" fill="#7209B7" opacity="0.5"/>
+  </g>
+
+  <!-- $ prompt -->
+  <text x="68" y="118"
         font-family="Courier New,monospace" font-size="20"
-        fill="#7c3aed" opacity="0.75">$_</text>
+        fill="#7209B7" opacity="0.75">$_</text>
 
-  <!-- name shadow layer (depth effect) -->
-  <text class="t-name"
-        x="452" y="92" text-anchor="middle"
-        font-family="Courier New,monospace" font-size="44" font-weight="bold"
-        fill="#0060aa" opacity="0.35" letter-spacing="2">YoshiBigSmoke</text>
+  <!-- Title — red ghost -->
+  <text class="t-r" x="450" y="120" text-anchor="middle"
+        font-family="Courier New,monospace" font-size="50" font-weight="bold"
+        fill="#F72585" opacity="0" letter-spacing="3">YoshiBigSmoke</text>
 
-  <!-- name main layer -->
-  <text class="t-name"
-        x="450" y="90" text-anchor="middle"
-        font-family="Courier New,monospace" font-size="44" font-weight="bold"
-        fill="#00d4ff" letter-spacing="2">YoshiBigSmoke</text>
+  <!-- Title — cyan ghost -->
+  <text class="t-c" x="450" y="120" text-anchor="middle"
+        font-family="Courier New,monospace" font-size="50" font-weight="bold"
+        fill="#4CC9F0" opacity="0" letter-spacing="3">YoshiBigSmoke</text>
 
-  <!-- subtitle -->
-  <text class="t-sub"
-        x="450" y="122" text-anchor="middle"
+  <!-- Title — main -->
+  <text class="t-main" x="450" y="120" text-anchor="middle"
+        font-family="Courier New,monospace" font-size="50" font-weight="bold"
+        fill="#E8F4FF" letter-spacing="3">YoshiBigSmoke</text>
+
+  <!-- Subtitle -->
+  <text class="t-sub" x="450" y="158" text-anchor="middle"
         font-family="Courier New,monospace" font-size="14"
-        fill="#ff3366" letter-spacing="3.5">PENTESTER  ·  SECURITY RESEARCHER  ·  EXPLOIT DEV</text>
+        fill="#F72585" letter-spacing="4">PENTESTER  ·  SECURITY RESEARCHER  ·  EXPLOIT DEV</text>
 
-  <!-- tag line -->
-  <text class="t-tag"
-        x="450" y="153" text-anchor="middle"
+  <!-- Tag line -->
+  <text x="450" y="183" text-anchor="middle"
         font-family="Courier New,monospace" font-size="11"
-        fill="#9d6fff" letter-spacing="1">
-    [ Arch Linux · Neovim · C · Assembly · Rust · Python · Independent ]
+        fill="#7209B7" opacity="0.85" letter-spacing="1.5">
+    [ C · Assembly · Rust · Python · Arch Linux · independent ]
   </text>
 
-  <!-- micro corner labels -->
-  <text x="9" y="14"
-        font-family="Courier New,monospace" font-size="8"
-        fill="#00d4ff" opacity="0.32">// offensive security</text>
-  <text x="891" y="170" text-anchor="end"
-        font-family="Courier New,monospace" font-size="8"
-        fill="#ff3366" opacity="0.32">// close to the metal</text>
+  <!-- Micro corner labels -->
+  <text x="10" y="17" font-family="Courier New,monospace" font-size="8"
+        fill="#4CC9F0" opacity="0.4">// offensive security</text>
+  <text x="890" y="292" text-anchor="end" font-family="Courier New,monospace" font-size="8"
+        fill="#F72585" opacity="0.4">// forever online</text>
 </svg>
