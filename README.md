@@ -15,19 +15,15 @@
 
 <br/>
 
-<!-- ── STICKERS ROW ─────────────────────────────────────────────────────────
-     Sube tus stickers al repo: git add stickers/ y descomenta estas líneas
 <p align="center">
-  <img src="stickers/city.png"   height="110" alt=""/>
-  &nbsp;&nbsp;
-  <img src="stickers/pc.png"     height="110" alt=""/>
-  &nbsp;&nbsp;
-  <img src="stickers/online.png" height="90"  alt=""/>
-  &nbsp;&nbsp;
-  <img src="stickers/glitch.png" height="110" alt=""/>
+  <img src="stickers/city.png"  height="115" alt=""/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="stickers/pc.png"    height="115" alt=""/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="stickers/glitch.png" height="115" alt=""/>
 </p>
+
 <br/>
-────────────────────────────────────────────────────────────────────────── -->
 
 <h3 align="center">◈ &nbsp; whoami &nbsp; ◈</h3>
 
