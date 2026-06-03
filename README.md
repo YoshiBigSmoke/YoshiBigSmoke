@@ -90,20 +90,37 @@ I build offensive tools I actually use in the field — network recon, OSINT, do
   </tr>
   <tr>
     <td align="center" width="50%"><br/>
-      <a href="https://github.com/YoshiBigSmoke/osint-cli">
-        <img src="https://img.shields.io/badge/▸_osint--cli-7209B7?style=for-the-badge&logoColor=white"/>
+      <a href="https://github.com/YoshiBigSmoke/NetMapper">
+        <img src="https://img.shields.io/badge/▸_NetMapper-7209B7?style=for-the-badge&logoColor=white"/>
       </a><br/><br/>
-      Email · phone · name OSINT<br/><sub>async parallel via asyncio.gather()</sub><br/><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+      Bash network scanner built on Nmap<br/><sub>host discovery · target selection · fast recon</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white"/>
     </td>
     <td align="center" width="50%"><br/>
       <a href="https://github.com/YoshiBigSmoke/financial-analyzer">
         <img src="https://img.shields.io/badge/▸_financial--analyzer-F8961E?style=for-the-badge&logo=rust&logoColor=white"/>
       </a><br/><br/>
-      Desktop financial analysis<br/><sub>DCF · ARIMA · Monte Carlo · GARCH</sub><br/><br/>
+      Desktop financial analysis app<br/><sub>DCF · ARIMA · Monte Carlo · GARCH</sub><br/><br/>
       <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white"/>
       <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><br/>
+      <a href="https://github.com/YoshiBigSmoke/NettMappel">
+        <img src="https://img.shields.io/badge/▸_NettMappel-4361EE?style=for-the-badge&logoColor=white"/>
+      </a><br/><br/>
+      Web-based network scanning platform<br/><sub>Flask · React · Nmap · JSON · scan history</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+    </td>
+    <td align="center" width="50%"><br/>
+      <a href="https://github.com/YoshiBigSmoke/evil-portal-html">
+        <img src="https://img.shields.io/badge/▸_evil--portal--html-FF6633?style=for-the-badge&logoColor=white"/>
+      </a><br/><br/>
+      Evil Portal pages for Flipper Zero<br/><sub>credential capture · educational · HTML</sub><br/><br/>
+      <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
     </td>
   </tr>
 </table>
