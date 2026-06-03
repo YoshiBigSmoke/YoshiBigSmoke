@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&pause=1400&color=4CC9F0&center=true&vCenter=true&width=700&lines=offensive+security+%26+exploit+development;building+tools+I+actually+use+in+the+field;low-level%3A+C+%7C+Assembly+%7C+Rust+%7C+shellcode;working+independent+%2F+close+to+the+metal;%2F%2F+forever+online" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1400&color=4CC9F0&center=true&vCenter=true&width=750&height=45&lines=offensive+security+%26+exploit+development;building+tools+I+actually+use+in+the+field;low-level%3A+C+%7C+Assembly+%7C+Rust+%7C+shellcode;working+independent+%2F+close+to+the+metal;%2F%2F+forever+online" alt="typing"/>
 </p>
 
 <p align="center">
@@ -16,11 +16,11 @@
 <br/>
 
 <p align="center">
-  <img src="stickers/city.png"  height="115" alt=""/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="stickers/pc.png"    height="115" alt=""/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="stickers/glitch.png" height="115" alt=""/>
+  <img src="stickers/city.png"   height="180" alt=""/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="stickers/pc.png"     height="180" alt=""/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="stickers/glitch.png" height="180" alt=""/>
 </p>
 
 <br/>
