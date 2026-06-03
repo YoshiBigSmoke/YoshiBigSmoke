@@ -1,0 +1,107 @@
+<svg width="100%" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#06060f"/>
+      <stop offset="40%"  stop-color="#0d0530"/>
+      <stop offset="100%" stop-color="#070714"/>
+    </linearGradient>
+    <linearGradient id="lineL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="lineR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00d4ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes glow {
+        0%,100% { opacity:1; }
+        50%      { opacity:0.78; }
+      }
+      @keyframes sub-glow {
+        0%,100% { opacity:0.92; }
+        50%      { opacity:0.58; }
+      }
+      @keyframes tag-fade {
+        0%,100% { opacity:0.65; }
+        50%      { opacity:0.38; }
+      }
+      @keyframes corner-blink {
+        0%,94%,96%,100% { opacity:1; }
+        95%              { opacity:0.3; }
+      }
+      .t-name { animation: glow     2.8s ease-in-out infinite; }
+      .t-sub  { animation: sub-glow 3.4s ease-in-out infinite; }
+      .t-tag  { animation: tag-fade 4.0s ease-in-out infinite; }
+      .corner { animation: corner-blink 5s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="180" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.055" stroke="#3030a0" stroke-width="0.7">
+    <line x1="0"   y1="45"  x2="900" y2="45"/>
+    <line x1="0"   y1="90"  x2="900" y2="90"/>
+    <line x1="0"   y1="135" x2="900" y2="135"/>
+    <line x1="180" y1="0"   x2="180" y2="180"/>
+    <line x1="360" y1="0"   x2="360" y2="180"/>
+    <line x1="540" y1="0"   x2="540" y2="180"/>
+    <line x1="720" y1="0"   x2="720" y2="180"/>
+  </g>
+
+  <!-- corner brackets — top cyan -->
+  <g class="corner" fill="none" stroke="#00d4ff" stroke-width="2.5">
+    <polyline points="0,22 0,2 22,2"/>
+    <polyline points="878,2 898,2 898,22"/>
+  </g>
+  <!-- corner brackets — bottom red -->
+  <g class="corner" fill="none" stroke="#ff3366" stroke-width="2.5">
+    <polyline points="0,158 0,178 22,178"/>
+    <polyline points="878,178 898,178 898,158"/>
+  </g>
+
+  <!-- flanking lines around title -->
+  <rect x="58" y="87" width="245" height="1" fill="url(#lineL)" opacity="0.5"/>
+  <rect x="597" y="87" width="245" height="1" fill="url(#lineR)" opacity="0.5"/>
+
+  <!-- prompt glyph -->
+  <text x="62" y="82"
+        font-family="Courier New,monospace" font-size="20"
+        fill="#7c3aed" opacity="0.75">$_</text>
+
+  <!-- name shadow layer (depth effect) -->
+  <text class="t-name"
+        x="452" y="92" text-anchor="middle"
+        font-family="Courier New,monospace" font-size="44" font-weight="bold"
+        fill="#0060aa" opacity="0.35" letter-spacing="2">YoshiBigSmoke</text>
+
+  <!-- name main layer -->
+  <text class="t-name"
+        x="450" y="90" text-anchor="middle"
+        font-family="Courier New,monospace" font-size="44" font-weight="bold"
+        fill="#00d4ff" letter-spacing="2">YoshiBigSmoke</text>
+
+  <!-- subtitle -->
+  <text class="t-sub"
+        x="450" y="122" text-anchor="middle"
+        font-family="Courier New,monospace" font-size="14"
+        fill="#ff3366" letter-spacing="3.5">PENTESTER  ·  SECURITY RESEARCHER  ·  EXPLOIT DEV</text>
+
+  <!-- tag line -->
+  <text class="t-tag"
+        x="450" y="153" text-anchor="middle"
+        font-family="Courier New,monospace" font-size="11"
+        fill="#9d6fff" letter-spacing="1">
+    [ Arch Linux · Neovim · C · Assembly · Rust · Python · Independent ]
+  </text>
+
+  <!-- micro corner labels -->
+  <text x="9" y="14"
+        font-family="Courier New,monospace" font-size="8"
+        fill="#00d4ff" opacity="0.32">// offensive security</text>
+  <text x="891" y="170" text-anchor="end"
+        font-family="Courier New,monospace" font-size="8"
+        fill="#ff3366" opacity="0.32">// close to the metal</text>
+</svg>
