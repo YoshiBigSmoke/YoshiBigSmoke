@@ -1,6 +1,6 @@
 <p align="center"><img src="header.svg" width="100%" alt="banner"/></p>
 
-<h1 align="center">Fernando Yeoshua Sanchez</h1>
+<h1 align="center">Spider Yoshi</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1400&color=4CC9F0&center=true&vCenter=true&width=700&height=36&lines=pentester+%26+security+researcher;exploit+dev+in+progress;building+tools+close+to+the+metal;%2F%2F+forever+online" alt="typing"/>
