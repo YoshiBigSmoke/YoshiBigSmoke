@@ -75,7 +75,7 @@ I build offensive tools I actually use in the field — network recon, OSINT, do
       <a href="https://github.com/YoshiBigSmoke/sniky-cho">
         <img src="https://img.shields.io/badge/▸_sniky--cho-4CC9F0?style=for-the-badge&logoColor=black"/>
       </a><br/><br/>
-      Silent network recon TUI<br/><sub>passive + semi-passive · leaves no trace</sub><br/><br/>
+      Passive 802.11 recon TUI<br/><sub>read-only · no packet injection</sub><br/><br/>
       <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white"/>
       <img src="https://img.shields.io/badge/Linux-1793D1?style=flat&logo=linux&logoColor=white"/>
     </td>
@@ -116,11 +116,11 @@ I build offensive tools I actually use in the field — network recon, OSINT, do
       <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
     </td>
     <td align="center" width="50%"><br/>
-      <a href="https://github.com/YoshiBigSmoke/evil-portal-html">
-        <img src="https://img.shields.io/badge/▸_evil--portal--html-FF6633?style=for-the-badge&logoColor=white"/>
+      <a href="https://github.com/YoshiBigSmoke/claude-pentest-memory">
+        <img src="https://img.shields.io/badge/▸_claude--pentest--memory-FF6633?style=for-the-badge&logoColor=white"/>
       </a><br/><br/>
-      Evil Portal pages for Flipper Zero<br/><sub>credential capture · educational · HTML</sub><br/><br/>
-      <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
+      Context-persistence skill for Claude Code<br/><sub>state management · methodology · CTF tooling</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white"/>
     </td>
   </tr>
 </table>
