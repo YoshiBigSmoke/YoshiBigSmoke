@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="art/banner.jpg" width="86%" alt="spider yoshi — pentester · exploit dev · builder"/>
+  <img src="art/banner.jpg" width="86%" alt="spider yoshi — pentester · developer · builder"/>
 </p>
 
 ---
