@@ -71,6 +71,28 @@ I build offensive tools I actually use in the field — network recon, OSINT, do
 
 ### `// projects`
 
+<p align="center">
+  <a href="https://kapi-liga.com">
+    <img src="https://img.shields.io/badge/★_KAPITAS-live_at_kapi--liga.com-F72585?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/source-private-3d3d3d?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <b>Amateur football league platform · real users in production</b><br/>
+  <sub>Sole fullstack developer — designed &amp; built the whole platform, AI-assisted (Claude as copilot)</sub><br/>
+  <sub>auth &amp; roles · leagues / teams / matches · round-robin fixtures + schedule-clash validation · companion mobile app</sub><br/><br/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/>
+</p>
+
+<p align="center"><sub>↓ open source &amp; tooling</sub></p>
+
 <table align="center" width="90%">
   <tr>
     <td align="center" width="50%">
