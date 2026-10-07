@@ -61,6 +61,8 @@ I build offensive tools I actually use in the field — network recon, OSINT, do
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=4CC9F0"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prisma-1a1a2e?style=for-the-badge&logo=prisma&logoColor=4CC9F0"/>
+  <img src="https://img.shields.io/badge/Vercel-1a1a1a?style=for-the-badge&logo=vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-1a1a2e?style=for-the-badge&logo=mysql&logoColor=4CC9F0"/>
   <img src="https://img.shields.io/badge/DuckDB-1a1a1a?style=for-the-badge&logo=duckdb&logoColor=FFF000"/>
 </p>
@@ -99,16 +101,6 @@ I build offensive tools I actually use in the field — network recon, OSINT, do
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
     </td>
     <td align="center" width="50%"><br/>
-      <a href="https://github.com/YoshiBigSmoke/NettMappel">
-        <img src="https://img.shields.io/badge/▸_NettMappel-4361EE?style=for-the-badge&logoColor=white"/>
-      </a><br/><br/>
-      Web-based network scanning platform<br/><sub>Flask · React · Nmap · JSON · scan history</sub><br/><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2"><br/>
       <a href="https://github.com/YoshiBigSmoke/claude-pentest-memory">
         <img src="https://img.shields.io/badge/▸_claude--pentest--memory-FF6633?style=for-the-badge&logoColor=white"/>
       </a><br/><br/>
