@@ -80,8 +80,8 @@ I build offensive tools I actually use in the field — network recon, OSINT, do
       <img src="https://img.shields.io/badge/Linux-1793D1?style=flat&logo=linux&logoColor=white"/>
     </td>
     <td align="center" width="50%">
-      <a href="https://github.com/YoshiBigSmoke/webexplorer">
-        <img src="https://img.shields.io/badge/▸_webexplorer-F72585?style=for-the-badge&logoColor=white"/>
+      <a href="https://github.com/YoshiBigSmoke/certsweep">
+        <img src="https://img.shields.io/badge/▸_certsweep-F72585?style=for-the-badge&logoColor=white"/>
       </a><br/><br/>
       Domain discovery via CT Logs + Wayback<br/><sub>parallel sources · SQLite cache</sub><br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
