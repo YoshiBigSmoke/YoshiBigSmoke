@@ -14,11 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="stickers/city.png" height="160" alt=""/>
-  &nbsp;&nbsp;
-  <img src="stickers/pc.png"   height="160" alt=""/>
-  &nbsp;&nbsp;
-  <img src="stickers/glitch.png" height="160" alt=""/>
+  <img src="art/banner.jpg" width="86%" alt="spider yoshi — pentester · exploit dev · builder"/>
 </p>
 
 ---
@@ -158,4 +154,13 @@ status = {
   <img src="https://img.shields.io/badge/houston%2C_tx-03001C?style=flat&logo=googlemaps&logoColor=4CC9F0"/>
   <img src="https://img.shields.io/badge/open_to_engagements-7209B7?style=flat"/>
   <img src="https://img.shields.io/badge/forever_online-F72585?style=flat"/>
+</p>
+
+---
+
+<p align="center"><sub><code>// off the clock</code></sub></p>
+<p align="center">
+  <img src="art/tux.png" height="150" alt=""/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="art/pixel-cat.jpg" height="150" alt=""/>
 </p>
