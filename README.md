@@ -87,6 +87,34 @@ I build offensive tools I actually use in the field — network recon, OSINT, do
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/>
 </p>
 
+<br/>
+
+<p align="center">
+  <a href="https://netsolutionsecurity.com">
+    <img src="https://img.shields.io/badge/★_NET_SOLUTION_%26_SECURITY-live_at_netsolutionsecurity.com-4CC9F0?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/source-private-3d3d3d?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <a href="https://netsolutionsecurity.com"><img src="art/net-solution.jpg" width="62%" alt="Net Solution &amp; Security — desktop"/></a>
+  &nbsp;
+  <a href="https://netsolutionsecurity.com"><img src="art/net-solution-movil.jpg" width="18%" alt="Net Solution &amp; Security — mobile"/></a>
+</p>
+
+<p align="center">
+  <b>Business website for a networking, fiber-optic &amp; CCTV installer · Cancún, MX</b><br/>
+  <sub>Sole developer — design, build &amp; deploy · app-style mobile UI: bottom tab bar + one-tap WhatsApp quote</sub><br/>
+  <sub>CCTV-style live hero · per-page skeleton loading (SEO-safe) · canvas fiber-network background</sub><br/>
+  <sub>static export on shared cPanel hosting · strict CSP + HSTS · WebP image pipeline</sub><br/><br/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat&logo=tailwindcss&logoColor=38BDF8"/>
+  <img src="https://img.shields.io/badge/Apache-D22128?style=flat&logo=apache&logoColor=white"/>
+</p>
+
 <p align="center"><sub>↓ open source &amp; tooling</sub></p>
 
 <table align="center" width="90%">
